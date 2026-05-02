@@ -11,6 +11,7 @@ include_directories(${INCLUDES})
 
 set(SOURCES
     ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/fileReader.cpp
 )
 
 add_executable(ASCII_GEN ${SOURCES})
